@@ -1,0 +1,16 @@
+.features{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.features-item-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.features__image{
+    max-width: 47px;
+    max-height: 47px;
+    margin: auto;
+}
