@@ -1,16 +1,44 @@
 .features{
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
+}
+
+.features__titles{
+    max-width: 550px;
+    margin: auto;
+}
+
+.features__secondary-title{
+    color: var(--primary-subtitle-color); 
+    margin-top: 20px;
 }
 
 .features-item-section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    max-width: 870px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.features__item{
+    max-width: 255px;
 }
 
 .features__image{
     max-width: 47px;
     max-height: 47px;
     margin: auto;
+    margin-bottom: 15px;
+}
+
+.features__title{
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: var(--secondary-text-color);
+}
+
+.features__subtitle{
+    color: var(--secondary-text-color);
 }

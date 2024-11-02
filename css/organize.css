@@ -1,4 +1,33 @@
 .organize{
+    margin-bottom: 220px;
+    margin-top: 220px;
+}
+
+.organize-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.organize__text{
+    margin-top: 40px;
+}
+
+.organize__text-title{
+    color: var(--secondary-text-color);
+    max-width: 335px;
+}
+
+.organize__text-paragraph{
+    color: var(--primary-subtitle-color);
+    max-width: 530px;
+}
+
+.organize__text-btn{
+    padding: 10px 25px;
+    margin-top: 40px;
+}
+
+.organize__img{
+    max-width: 660px;
 }
