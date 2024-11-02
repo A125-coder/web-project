@@ -1,0 +1,161 @@
+.pricing {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  margin-bottom: 150px;
+}
+
+.pricing__container {
+  padding: 100px 0;
+  max-width: 1105px;
+  text-align: center;
+}
+
+.pricing__title {
+  margin-bottom: 20px;
+}
+
+.pricing__subtitle {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.pricing__plan-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pricing__plan--free,
+.pricing__plan--business,
+.pricing__plan--standard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+
+  .pricing__plan-description {
+    max-width: 148px;
+  }
+}
+
+.pricing__plan--free:hover,
+.pricing__plan--business:hover,
+.pricing__plan--standard:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+}
+
+.pricing__plan--free,
+.pricing__plan--business {
+  background-color: var(--primary-bg-color);
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 335px;
+
+  .pricing__plan-title {
+    color: var(--secondary-text-color);
+  }
+
+  .pricing__plan-description {
+    color: var(--primary-subtitle-color);
+  }
+
+  .pricing__plan-amount {
+    color: var(--secondary-text-color);
+    margin-right: 10px;
+  }
+
+  .pricing__plan-currency {
+    color: var(--primary-subtitle-color);
+  }
+
+  .pricing__plan-period {
+    color: var(--primary-subtitle-color);
+  }
+
+  .pricing__feature-link {
+    color: var(--primary-subtitle-color);
+  }
+}
+
+.pricing__plan--standard {
+  background-color: var(--brand-color);
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 335px;
+
+  .pricing__plan-title {
+    color: var(--primary-text-color);
+  }
+
+  .pricing__plan-description {
+    color: var(--primary-text-color);
+  }
+
+  .pricing__plan-amount {
+    color: var(---primary-text-color);
+    margin-right: 10px;
+  }
+
+  .pricing__plan-currency {
+    color: var(--primary-text-color);
+  }
+
+  .pricing__plan-period {
+    color: var(--primary-text-color);
+  }
+
+  .pricing__feature-link {
+    color: var(--primary-text-color);
+  }
+
+  .pricing__btn {
+    background-color: var(--primary-bg-color);
+    color: var(--brand-color);
+  }
+
+  .pricing__btn:hover {
+    background-color: var(--tertiary-border-color);
+    color: var(--brand-color);
+  }
+}
+
+.pricing__features {
+  padding-left: 0;
+}
+
+.pricing__plan-amount {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.pricing__plan-cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pricing__plan-currency {
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: 900;
+}
+
+.pricing__feature {
+  margin-bottom: 15px;
+}
+
+.pricing__btn {
+  padding: 10px 60px;
+  font-size: 14px;
+}
+
+.pricing__btn:hover {
+  padding: 8.5px 59px;
+}
+
+.pricing__feature-link{
+    text-decoration: none;
+}

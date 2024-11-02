@@ -1,52 +1,81 @@
-<section class="container">
-  <h2>Contact Us</h2>
-  <p>
-    Most calendars are designed for teams. Slate is designed for freelancers
+<section id="contact-us" class="contact-us container">
+  <h2 class="contact-us__title">Contact Us</h2>
+  <p class="contact-us__subtitle">
+    Most calendars are designed for teams.<br />
+    Slate is designed for freelancers.
   </p>
-  <div>
-    <h3>Contact Us</h3>
-    <form action="#">
-      <label for="your-name">
-        <input
-          type="text"
-          name="your-name"
-          id="your-name"
-          placeholder="Your Name"
-        />
-      </label>
-      <label for="your-email">
-        <input
-          type="email"
-          name="your-email"
-          id="your-email"
-          placeholder="Your Email"
-        />
-      </label>
-      <textarea
-        name="your-message"
-        id="your-message"
-        placeholder="Your Message"
-      ></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <address>
-      <div>
-        <img src="img/adress.jpg" alt="address-logo" />
-        <a href="#"
-          >6386 Spring St undefined Anchorage, Georgia 12473 United States</a
-        >
-      </div>
-      <div>
-        <img src="img/phone.jpg" alt="phone-logo" />
-        <a href="tel:+38435550130">(843) 555-0130</a>
-      </div>
-      <div>
-        <img src="img/email.jpg" alt="email-logo" />
-        <a href="mailto:willie.jennings@example.com"
-          >willie.jennings@example.com</a
-        >
-      </div>
-    </address>
-    <img src="img/map.jpg" alt="map-proto" />
+  <div class="contact-us__content">
+    <div class="contact-us__form-container">
+      <form class="contact-us__form" action="#">
+        <h3 class="contact-us__form-title">Contact Us</h3>
+        <label for="your-name" class="contact-us__label">
+          <input
+            type="text"
+            name="your-name"
+            id="your-name"
+            placeholder="Your Name"
+            class="contact-us__input"
+          />
+        </label>
+        <label for="your-email" class="contact-us__label">
+          <input
+            type="email"
+            name="your-email"
+            id="your-email"
+            placeholder="Your Email"
+            class="contact-us__input"
+          />
+        </label>
+        <textarea
+          name="your-message"
+          id="your-message"
+          placeholder="Your Message"
+          class="contact-us__textarea"
+        ></textarea>
+        <button type="submit" class="contact-us__button">Send</button>
+      </form>
+    </div>
+    <div class="contact-us__info">
+      <address class="contact-us__address">
+        <div class="contact-us__address-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <a class="contact-us__address-item-link" href="#"
+            >6386 Spring St undefined Anchorage, Georgia 12473 United States</a
+          >
+        </div>
+        <div class="contact-us__address-item">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <a class="contact-us__address-item-link" href="tel:+38435550130"
+            >(843) 555-0130</a
+          >
+        </div>
+        <div class="contact-us__address-item">
+          <i class="fa-regular fa-envelope"></i>
+          <a
+            class="contact-us__address-item-link"
+            href="mailto:willie.jennings@example.com"
+            >willie.jennings@example.com</a
+          >
+        </div>
+      </address>
+      <img src="img/map.jpg" alt="map-proto" class="contact-us__map" />
+      <ul class="contact-us__socials-menu">
+        <li class="contact-us__social-menu-item">
+          <a class="contact-us__social-menu-item-link" href="#">
+            <i class="fab fa-twitter contact-us__social-icons"></i>
+          </a>
+        </li>
+        <li class="contact-us__social-menu-item">
+          <a class="contact-us__social-menu-item-link" href="#">
+            <i class="fab fa-facebook-square contact-us__social-icons"></i>
+          </a>
+        </li>
+        <li class="contact-us__social-menu-item">
+          <a class="contact-us__social-menu-item-link" href="#">
+            <i class="fab fa-linkedin contact-us__social-icons"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>

@@ -46,6 +46,8 @@ button:hover {
 
 body {
   font-family: var(--primary-font-family);
+
+  background-color: var(--primary-bg-color);
 }
 
 header {
@@ -54,7 +56,7 @@ header {
   background-position: center;
   height: 110vh;
   text-align: center;
-  color: white;
+  color: var(--primary-text-color);
 }
 
 ul {

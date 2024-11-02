@@ -1,0 +1,137 @@
+.contact-us {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-us__title {
+  margin-bottom: 30px;
+  color: var(--secondary-text-color);
+}
+
+.contact-us__subtitle {
+  font-size: 20px;
+  color: var(--primary-subtitle-color);
+  margin-bottom: 40px;
+}
+
+.contact-us__content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-us__form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-us__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  background: var(--primary-bg-color);
+  padding: 0 52px 50px 52px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-us__form-title {
+  margin: 40px auto;
+}
+
+.contact-us__input {
+  padding: 15px 90px 15px 20px;
+  border: 1px solid var(--primary-border-color);
+  border-radius: 50px;
+  background-color: var(--input-bg-color);
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.contact-us__textarea {
+  padding: 15px 90px 15px 20px;
+  border: 1px solid var(--primary-border-color);
+  background-color: var(--input-bg-color);
+  margin-bottom: 25px;
+  width: 100%;
+  height: 193px;
+}
+
+.contact-us__textarea:hover,
+.contact-us__input:hover {
+  border: 1px solid var(--brand-color);
+}
+
+.contact-us__button {
+  padding: 10px 60px;
+}
+
+.contact-us__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us__address {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  .contact-us__address-item {
+    display: flex;
+    flex-direction: column;
+
+    .contact-us__address-item-link {
+      color: var(--primary-subtitle-color);
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    .fa-solid,
+    .fa-regular {
+      color: var(--brand-color);
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.contact-us__map {
+  border-radius: 8px;
+}
+
+.contact-us__socials-menu {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 50px;
+
+  .contact-us__social-menu-item-link {
+    font-size: 40px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us__content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-us__map {
+    display: none;
+  }
+
+  .contact-us__address {
+    grid-template-columns: 1fr;
+
+    .contact-us__address-item {
+      flex-direction: row;
+
+      .fa-solid,
+      .fa-regular {
+        padding-right: 10px;
+      }
+    }
+  }
+}

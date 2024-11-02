@@ -41,7 +41,16 @@
   padding: 15px 80px 15px 30px;
 }
 
+.prototyping__text-input:hover,
+.prototyping__text-input:focus{
+  border: 1px solid var(--brand-color);
+}
+
 .prototyping__text-btn {
   padding: 15px 40px;
   margin-left: 10px;
+}
+
+.prototyping__text-btn:hover {
+  padding: 13.8px 39px;
 }
