@@ -25,12 +25,7 @@
   .footer__social-menu {
     padding-left: 0;
   }
-
-  .footer__social-menu,
-  .footer__address {
-    margin-left: 125px;
-  }
-
+  
   .footer__link,
   .footer__address-link,
   .footer__social-link-icon {
@@ -54,5 +49,20 @@
   .footer__social-link {
     font-size: 40px;
     padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__social-menu {
+    margin-top: 50px;
+    justify-content: center;
   }
 }

@@ -131,8 +131,14 @@
       .fa-solid,
       .fa-regular {
         padding-right: 10px;
-
       }
     }
+  }
+}
+
+@media (max-width: 420px) {
+  .contact-us__textarea,
+  .contact-us__input {
+    font-size: 10px;
   }
 }

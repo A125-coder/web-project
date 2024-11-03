@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+    .features__screen-img{
+      display: none;
+    }
+  }
+  
