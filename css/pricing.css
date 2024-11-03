@@ -159,3 +159,12 @@
 .pricing__feature-link{
     text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+  .pricing__plan-list{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
